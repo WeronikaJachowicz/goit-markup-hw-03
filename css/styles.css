@@ -48,6 +48,7 @@ a {
 .div-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .page-nav { 
@@ -81,9 +82,7 @@ a {
     color:#2e2f42;
 
 }
-.address {
-    padding: 24px 0;
-}
+
 .address-list {
     display: flex;
     gap: 40px;
