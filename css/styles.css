@@ -50,9 +50,10 @@ a {
     justify-content: space-between;
 }
 
-.page-nav{ 
+.page-nav { 
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
 .logo {
@@ -71,10 +72,7 @@ a {
 .logo-studio {
     color: #2e2f42;
 }
-.page-nav {
-    display: flex;
-    gap: 40px;
-}
+
 
 .link {
     padding: 24px 0;
