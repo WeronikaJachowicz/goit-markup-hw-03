@@ -41,7 +41,6 @@ a {
 }
 .page-header {
     border-bottom: 1px solid #e7e9fc;
-    width: 1440px;
     height: 72px;
     display: flex;
 }
@@ -50,10 +49,12 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-
-.page-nav { 
+.nav {
     display: flex;
     align-items: center;
+}
+.page-nav { 
+    display: flex;
     gap: 40px;
 }
 
@@ -82,6 +83,9 @@ a {
     color:#2e2f42;
 
 }
+.address {
+    font-style: normal;
+}
 
 .address-list {
     display: flex;
@@ -92,7 +96,6 @@ a {
 .address-link-second {
     text-decoration: none;
     color:#434455;
-    margin-right: 40px;
 }
 .address-link-second {
     margin-right: 0;
@@ -108,7 +111,6 @@ a {
 .first-section {
     background-color:#2e2f42;
     padding: 188px 0;
-    display: flex;
 }
 .page-title {
     font-weight: 700;
@@ -120,6 +122,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     max-width: 496px;
+    margin-bottom: 48px;
 }
 .button{
     font-weight: 500;
@@ -171,7 +174,6 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    display: flex;
     margin-bottom: 8px;
     text-align: center;
 }
@@ -193,7 +195,6 @@ a {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    display: flex;
     justify-content: center;
     margin-bottom: 72px;
 }
@@ -242,7 +243,6 @@ a {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    display: flex;
     justify-content: center;
 }
 .fourth-section-list {
@@ -266,7 +266,6 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    display: flex;
     text-align: center;
     margin-bottom: 8px;
 }
@@ -277,7 +276,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
-    margin: 8px 0;
 }
 .page-footer {
     background-color: #2e2f42;
